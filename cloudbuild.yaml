@@ -5,5 +5,5 @@ steps:
     - name: node
       entrypoint: yarn
       args: ['build']
-    - name: gcr.io/bionic-aspect-386214/firebase
+    - name: gcr.io/kiranbansode-votesub/firebase
       args: ['deploy', '--project=bionic-aspect-386214', '--only=hosting']
